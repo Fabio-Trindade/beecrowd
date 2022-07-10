@@ -9,7 +9,8 @@ void main(List<String> args) {
     print( qtdPlanos.toInt());
   }
 }
-/* 
+/* OBS: Programação dinâmica este problema, no entanto, a resolução deste exercício foi levado em 
+  consideração a eficiência do algoritmo.
   Explicação: Quando uma reta é adicionada, ela cortará todas as outras retas já contidas no plano e cada
   corte gera mais 1 plano. No fim, a adição dessa reta criará p planos, onde p é 1 mais a quantidade de retas
   cortadas.
