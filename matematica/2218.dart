@@ -25,11 +25,11 @@ void main(List<String> args) {
   ...
   Temos que:
    Quantidade de planos = Quantidade de retas + Quantidade de planos_(quantidade de retas - 1)
-   Esta equação será representada por P = r + P_r-1
-   Pela fórmula:
-   P_r-1 = r - 1 + P_r-2
+   Esta equação será representada por P = r + P_r-1.
+   Pela fórmula P_r-1 é:
+    P_r-1 = r - 1 + P_r-2
    Se continuarmos desmembrando a quantidade de planos, teremos:
-   P = r^2 - somatorio( 1 ate r-1 ) + P_r-r = 
+    P = r^2 - somatorio( 1 ate r-1 ) + P_r-r = 
     r^2 - somatorio( 1 ate r-1 )+ P_0 = 
     r^2 - somatorio( 1 ate r-1 ) + 1
    Agora basta calcularmos o somatório. Podemos calcular de duas formas:
