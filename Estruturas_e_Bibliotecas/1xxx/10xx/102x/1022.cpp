@@ -3,14 +3,12 @@ using namespace std;
 typedef struct num
 {
     int n;
-    char op;
     int d;
 } num;
 
 num calcular(char op, num n1, num n2)
 {
     num num;
-    num.op = '/';
     switch (op)
     {
 
@@ -73,7 +71,7 @@ int main()
     for (int i = 0; i < qtd ; i++)
     {
         bool neg=false;
-        scanf("%d %c %d %c %d %c %d", &n1.n, &n1.op, &n1.d, &op, &n2.n, &n2.op, &n2.d );
+        scanf("%d / %d %c %d / %d", &n1.n,&n1.d, &op, &n2.n, &n2.d );
         n=calcular(op,n1,n2);
         printf("%d/%d = ",n.n,n.d);
         if(n.n<0){
